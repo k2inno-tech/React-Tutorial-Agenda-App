@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'font-awesome/css/font-awesome.min.css';
-import 'bootstrap-css-only/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+//JSX
+//ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 
-import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render( <App /> , document.getElementById('root'));
-
-registerServiceWorker();
+ReactDOM.render(
+    <div>
+      <h1>Hello World</h1>
+      <h2>Sub heading</h2>
+    </div>,
+    document.getElementById("root")
+  );
